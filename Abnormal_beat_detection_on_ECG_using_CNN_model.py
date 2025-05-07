@@ -10,7 +10,7 @@ from tensorflow.keras.layers import Conv1D, Dense, Flatten, Dropout
 
 
 # %%
-# Get the list of all patients ID in the data
+# Get the list of all patient IDs in the data
 def extract_numbers_from_filenames(folder_path):
     numbers = set()
     for file in os.listdir(folder_path):
